@@ -1,0 +1,6 @@
+Invoking command in '/home/mowerai/robot_ws/build/mowerai': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/mowerai/robot_ws/src/mowerai -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mowerai/robot_ws/install/mowerai
+Invoked command in '/home/mowerai/robot_ws/build/mowerai' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/mowerai/robot_ws/src/mowerai -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mowerai/robot_ws/install/mowerai
+Invoking command in '/home/mowerai/robot_ws/build/mowerai': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mowerai/robot_ws/build/mowerai -- -j4 -l4
+Invoked command in '/home/mowerai/robot_ws/build/mowerai' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mowerai/robot_ws/build/mowerai -- -j4 -l4
+Invoking command in '/home/mowerai/robot_ws/build/mowerai': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mowerai/robot_ws/build/mowerai
+Invoked command in '/home/mowerai/robot_ws/build/mowerai' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mowerai/robot_ws/build/mowerai

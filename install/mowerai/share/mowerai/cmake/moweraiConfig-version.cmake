@@ -1,0 +1,1 @@
+/home/mowerai/robot_ws/build/mowerai/ament_cmake_core/moweraiConfig-version.cmake

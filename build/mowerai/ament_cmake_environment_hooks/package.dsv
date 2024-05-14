@@ -1,0 +1,4 @@
+source;share/mowerai/local_setup.bash
+source;share/mowerai/local_setup.dsv
+source;share/mowerai/local_setup.sh
+source;share/mowerai/local_setup.zsh

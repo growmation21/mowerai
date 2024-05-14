@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.001815] (mowerai) JobQueued: {'identifier': 'mowerai', 'dependencies': OrderedDict()}
+[0.002448] (mowerai) JobStarted: {'identifier': 'mowerai'}
+[0.041187] (mowerai) JobProgress: {'identifier': 'mowerai', 'progress': 'cmake'}
+[0.042371] (mowerai) Command: {'cmd': ['/usr/bin/cmake', '/home/mowerai/robot_ws/src/mowerai', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mowerai/robot_ws/install/mowerai'], 'cwd': '/home/mowerai/robot_ws/build/mowerai', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mowerai'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mowerai'), ('OLDPWD', '/home/mowerai/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1193'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mowerai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mowerai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mowerai-desktop:@/tmp/.ICE-unix/1161,unix/mowerai-desktop:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/95da6b77_d7a1_49bc_85ae_456475907a24'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E127N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mowerai/robot_ws/build/mowerai'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099253] (-) TimerEvent: {}
+[0.200331] (-) TimerEvent: {}
+[0.301142] (-) TimerEvent: {}
+[0.402060] (-) TimerEvent: {}
+[0.502962] (-) TimerEvent: {}
+[0.603803] (-) TimerEvent: {}
+[0.667138] (mowerai) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.703985] (-) TimerEvent: {}
+[0.804853] (-) TimerEvent: {}
+[0.906125] (-) TimerEvent: {}
+[1.007127] (-) TimerEvent: {}
+[1.108969] (-) TimerEvent: {}
+[1.210231] (-) TimerEvent: {}
+[1.311303] (-) TimerEvent: {}
+[1.412380] (-) TimerEvent: {}
+[1.513753] (-) TimerEvent: {}
+[1.615099] (-) TimerEvent: {}
+[1.679842] (mowerai) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.715294] (-) TimerEvent: {}
+[1.725549] (mowerai) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.815528] (-) TimerEvent: {}
+[1.916425] (-) TimerEvent: {}
+[2.017390] (-) TimerEvent: {}
+[2.075510] (mowerai) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.104686] (mowerai) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.106574] (mowerai) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.109270] (mowerai) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.117482] (-) TimerEvent: {}
+[2.124267] (mowerai) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.217698] (-) TimerEvent: {}
+[2.318748] (-) TimerEvent: {}
+[2.419729] (-) TimerEvent: {}
+[2.480409] (mowerai) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.507643] (mowerai) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.508695] (mowerai) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.510217] (mowerai) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.519732] (-) TimerEvent: {}
+[2.543108] (mowerai) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[2.619920] (-) TimerEvent: {}
+[2.720684] (-) TimerEvent: {}
+[2.821361] (-) TimerEvent: {}
+[2.922023] (-) TimerEvent: {}
+[3.022739] (-) TimerEvent: {}
+[3.123645] (-) TimerEvent: {}
+[3.224393] (-) TimerEvent: {}
+[3.325201] (-) TimerEvent: {}
+[3.426207] (-) TimerEvent: {}
+[3.440844] (mowerai) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.526656] (-) TimerEvent: {}
+[3.628623] (-) TimerEvent: {}
+[3.730340] (-) TimerEvent: {}
+[3.831172] (-) TimerEvent: {}
+[3.835942] (mowerai) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.931352] (-) TimerEvent: {}
+[4.032150] (-) TimerEvent: {}
+[4.132974] (-) TimerEvent: {}
+[4.177075] (mowerai) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[4.233131] (-) TimerEvent: {}
+[4.334054] (-) TimerEvent: {}
+[4.435133] (-) TimerEvent: {}
+[4.536439] (-) TimerEvent: {}
+[4.637135] (-) TimerEvent: {}
+[4.642416] (mowerai) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.643075] (mowerai) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[4.646700] (mowerai) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.650012] (mowerai) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.659579] (mowerai) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.671122] (mowerai) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.694285] (mowerai) StdoutLine: {'line': b'-- Generating done\n'}
+[4.699583] (mowerai) StdoutLine: {'line': b'-- Build files have been written to: /home/mowerai/robot_ws/build/mowerai\n'}
+[4.714995] (mowerai) CommandEnded: {'returncode': 0}
+[4.716976] (mowerai) JobProgress: {'identifier': 'mowerai', 'progress': 'build'}
+[4.719697] (mowerai) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mowerai/robot_ws/build/mowerai', '--', '-j4', '-l4'], 'cwd': '/home/mowerai/robot_ws/build/mowerai', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mowerai'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mowerai'), ('OLDPWD', '/home/mowerai/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1193'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mowerai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mowerai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mowerai-desktop:@/tmp/.ICE-unix/1161,unix/mowerai-desktop:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/95da6b77_d7a1_49bc_85ae_456475907a24'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E127N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mowerai/robot_ws/build/mowerai'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[4.737478] (-) TimerEvent: {}
+[4.838867] (-) TimerEvent: {}
+[4.919839] (mowerai) CommandEnded: {'returncode': 0}
+[4.939086] (-) TimerEvent: {}
+[5.040918] (-) TimerEvent: {}
+[5.055722] (mowerai) JobProgress: {'identifier': 'mowerai', 'progress': 'install'}
+[5.093738] (mowerai) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mowerai/robot_ws/build/mowerai'], 'cwd': '/home/mowerai/robot_ws/build/mowerai', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mowerai'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mowerai'), ('OLDPWD', '/home/mowerai/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1193'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mowerai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mowerai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mowerai-desktop:@/tmp/.ICE-unix/1161,unix/mowerai-desktop:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/95da6b77_d7a1_49bc_85ae_456475907a24'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E127N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mowerai/robot_ws/build/mowerai'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[5.123710] (mowerai) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.125361] (mowerai) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.127932] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/listener.launch.py\n'}
+[5.141130] (-) TimerEvent: {}
+[5.160219] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/talker.launch.py\n'}
+[5.193247] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/package_run_dependencies/mowerai\n'}
+[5.234323] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/parent_prefix_path/mowerai\n'}
+[5.241414] (-) TimerEvent: {}
+[5.283933] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.sh\n'}
+[5.326058] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.dsv\n'}
+[5.341863] (-) TimerEvent: {}
+[5.376343] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/path.sh\n'}
+[5.418587] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/path.dsv\n'}
+[5.442069] (-) TimerEvent: {}
+[5.470073] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.bash\n'}
+[5.515511] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.sh\n'}
+[5.542527] (-) TimerEvent: {}
+[5.563964] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.zsh\n'}
+[5.616055] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.dsv\n'}
+[5.642839] (-) TimerEvent: {}
+[5.657714] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/package.dsv\n'}
+[5.705982] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/packages/mowerai\n'}
+[5.743158] (-) TimerEvent: {}
+[5.755573] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/cmake/moweraiConfig.cmake\n'}
+[5.800500] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/cmake/moweraiConfig-version.cmake\n'}
+[5.840978] (mowerai) StdoutLine: {'line': b'-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/package.xml\n'}
+[5.843448] (-) TimerEvent: {}
+[5.901739] (mowerai) CommandEnded: {'returncode': 0}
+[5.944214] (-) TimerEvent: {}
+[6.045993] (-) TimerEvent: {}
+[6.147566] (-) TimerEvent: {}
+[6.226296] (mowerai) JobEnded: {'identifier': 'mowerai', 'rc': 0}
+[6.232630] (-) EventReactorShutdown: {}

@@ -1,0 +1,49 @@
+[0.043s] Invoking command in '/home/mowerai/robot_ws/build/mowerai': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/mowerai/robot_ws/src/mowerai -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mowerai/robot_ws/install/mowerai
+[0.665s] -- The C compiler identification is GNU 11.4.0
+[1.677s] -- The CXX compiler identification is GNU 11.4.0
+[1.723s] -- Detecting C compiler ABI info
+[2.073s] -- Detecting C compiler ABI info - done
+[2.102s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.104s] -- Detecting C compile features
+[2.107s] -- Detecting C compile features - done
+[2.122s] -- Detecting CXX compiler ABI info
+[2.478s] -- Detecting CXX compiler ABI info - done
+[2.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.506s] -- Detecting CXX compile features
+[2.508s] -- Detecting CXX compile features - done
+[2.541s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[3.439s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.834s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.175s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.640s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.641s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.644s] -- Added test 'lint_cmake' to check CMake code style
+[4.648s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.657s] -- Added test 'xmllint' to check XML markup files
+[4.669s] -- Configuring done
+[4.692s] -- Generating done
+[4.697s] -- Build files have been written to: /home/mowerai/robot_ws/build/mowerai
+[4.713s] Invoked command in '/home/mowerai/robot_ws/build/mowerai' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/mowerai/robot_ws/src/mowerai -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mowerai/robot_ws/install/mowerai
+[4.724s] Invoking command in '/home/mowerai/robot_ws/build/mowerai': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mowerai/robot_ws/build/mowerai -- -j4 -l4
+[4.919s] Invoked command in '/home/mowerai/robot_ws/build/mowerai' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mowerai/robot_ws/build/mowerai -- -j4 -l4
+[5.095s] Invoking command in '/home/mowerai/robot_ws/build/mowerai': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mowerai/robot_ws/build/mowerai
+[5.121s] -- Install configuration: ""
+[5.123s] -- Execute custom install script
+[5.126s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/listener.launch.py
+[5.158s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/talker.launch.py
+[5.191s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/package_run_dependencies/mowerai
+[5.232s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/parent_prefix_path/mowerai
+[5.283s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.sh
+[5.324s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.dsv
+[5.374s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/path.sh
+[5.418s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/path.dsv
+[5.468s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.bash
+[5.513s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.sh
+[5.562s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.zsh
+[5.615s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.dsv
+[5.656s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/package.dsv
+[5.704s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/packages/mowerai
+[5.754s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/cmake/moweraiConfig.cmake
+[5.798s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/cmake/moweraiConfig-version.cmake
+[5.839s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/package.xml
+[5.904s] Invoked command in '/home/mowerai/robot_ws/build/mowerai' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mowerai/robot_ws/build/mowerai

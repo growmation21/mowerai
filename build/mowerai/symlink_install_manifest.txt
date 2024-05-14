@@ -1,0 +1,17 @@
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/listener.launch.py
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/talker.launch.py
+/home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/package_run_dependencies/mowerai
+/home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/parent_prefix_path/mowerai
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.sh
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.dsv
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/path.sh
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/path.dsv
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.bash
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.sh
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.zsh
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.dsv
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/package.dsv
+/home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/packages/mowerai
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/cmake/moweraiConfig.cmake
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/cmake/moweraiConfig-version.cmake
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/package.xml
