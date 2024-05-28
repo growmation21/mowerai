@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "DESTINATION" "share/mowerai")
-ament_cmake_symlink_install_directory("/home/mowerai/robot_ws/src/mowerai" DIRECTORY "launch" "DESTINATION" "share/mowerai")
+# install(DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/mowerai")
+ament_cmake_symlink_install_directory("/home/mowerai/robot_ws/src/mowerai" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/mowerai")
 
 # install(FILES "/home/mowerai/robot_ws/build/mowerai/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mowerai" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/mowerai/robot_ws/src/mowerai" FILES "/home/mowerai/robot_ws/build/mowerai/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mowerai" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

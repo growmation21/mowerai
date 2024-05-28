@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/config/empty.yaml
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/description/include.xacro
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/description/mower.urdf.xacro
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/listener.launch.py
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/rsp.launch.py
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/talker.launch.py
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/worlds/empty.world
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/package_run_dependencies/mowerai
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/parent_prefix_path/mowerai
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/path.sh
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/path.dsv
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.bash
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.sh
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.zsh
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.dsv
+-- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/package.dsv
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/packages/mowerai
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/cmake/moweraiConfig.cmake
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/cmake/moweraiConfig-version.cmake
+-- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/package.xml

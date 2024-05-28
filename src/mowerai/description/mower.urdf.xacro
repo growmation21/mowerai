@@ -2,6 +2,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="mower">
    
    <xacro:include filename="include.xacro" />
+   <xacro:include filename="inertial_macros.xacro" />
 
    <link name="world"></link>
 
@@ -27,38 +28,44 @@
                 <box size="0.9144 0.6096 0.03175" />
             </geometry>
         </collision>
-        <inertial>
+        <xacro:inertial_box mass="0.5" x="0.9144" y="0.6096" z="0.03175">
             <origin xyz="0 0 0.05" rpy="0 0 0"/>
-            <mass value="12" />
-            <inertia ixx="2.26" ixy="0.0" ixz="0.0" iyy="6.26" iyz="0.0" izz="8.5" />
-        </inertial>
+        </xacro:inertial_box>
     </link>
 
     <joint name="wheel_fr_joint" type="continuous">
-        <origin xyz="0.4572 0.3048 0" rpy="0 0 0"/>
-        <parent link="base_link"/>       
+        <origin xyz="0.4572 0.3048 0" rpy="${pi/2} 0 0"/>
+        <axis xyz="0 0 -1"/>
+        <parent link="base_link"/>
+        <child link="wheel_fr_link"/>       
     </joint>
 
     <joint name="wheel_fl_joint" type="continuous">
-        <origin xyz="0.4572 0.3048 0" rpy="0 0 0"/>
-        <parent link="base_link"/>       
+        <origin xyz="0.4572 0.3048 0" rpy="-${pi/2} 0 0"/>
+        <axis xyz="0 0 1"/>
+        <parent link="base_link"/>
+        <child link="wheel_fl_link"/>       
     </joint>
 
     <joint name="wheel_rr_joint" type="continuous">
-        <origin xyz="0.4572 0.3048 0" rpy="0 0 0"/>
-        <parent link="base_link"/>       
+        <origin xyz="0.4572 0.3048 0" rpy="${pi/2} 0 0"/>
+        <axis xyz="0 0 -1"/>
+        <parent link="base_link"/>
+        <child link="wheel_rr_link"/>       
     </joint>
 
     <joint name="wheel_rl_joint" type="continuous">
-        <origin xyz="0.4572 0.3048 0" rpy="0 0 0"/>
-        <parent link="base_link"/>       
+        <origin xyz="0.4572 0.3048 0" rpy="-${pi/2} 0 0"/>
+        <axis xyz="0 0 1"/>
+        <parent link="base_link"/>
+        <child link="wheel_rl_link"/>       
     </joint>
 
     <link name="wheel_fr_link">
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <cylinder size="2.5 1.5 0.1" />
+                <cylinder length="0.0508" radius="0.1016" />
             </geometry>
             <material name="green">
                 <color rgba="0.2 1 0.2 1"/>
@@ -67,7 +74,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <cylinder size="2.5 1.5 0.1" />
+                <cylinder length="0.0508" radius="0.1016" />
             </geometry>
         </collision>
         <inertial>
@@ -81,7 +88,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <cylinder size="2.5 1.5 0.1" />
+                <cylinder length="0.0508" radius="0.1016" />
             </geometry>
             <material name="green">
                 <color rgba="0.2 1 0.2 1"/>
@@ -90,7 +97,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <cylinder size="2.5 1.5 0.1" />
+                <cylinder length="0.0508" radius="0.1016" />
             </geometry>
         </collision>
         <inertial>
@@ -104,7 +111,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <cylinder size="2.5 1.5 0.1" />
+                <cylinder length="0.0508" radius="0.1016" />
             </geometry>
             <material name="green">
                 <color rgba="0.2 1 0.2 1"/>
@@ -113,7 +120,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <cylinder size="2.5 1.5 0.1" />
+                <cylinder length="0.0508" radius="0.1016" />
             </geometry>
         </collision>
         <inertial>
@@ -127,7 +134,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <cylinder size="2.5 1.5 0.1" />
+                <cylinder length="0.0508" radius="0.1016" />
             </geometry>
             <material name="green">
                 <color rgba="0.2 1 0.2 1"/>
@@ -136,7 +143,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <cylinder size="2.5 1.5 0.1" />
+                <cylinder length="0.0508" radius="0.1016" />
             </geometry>
         </collision>
         <inertial>

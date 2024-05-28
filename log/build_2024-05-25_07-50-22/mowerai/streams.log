@@ -1,0 +1,30 @@
+[0.099s] Invoking command in '/home/mowerai/robot_ws/build/mowerai': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mowerai/robot_ws/build/mowerai -- -j4 -l4
+[0.296s] Invoked command in '/home/mowerai/robot_ws/build/mowerai' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mowerai/robot_ws/build/mowerai -- -j4 -l4
+[0.454s] Invoking command in '/home/mowerai/robot_ws/build/mowerai': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mowerai/robot_ws/build/mowerai
+[0.481s] -- Install configuration: ""
+[0.484s] -- Execute custom install script
+[0.485s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/config/empty.yaml
+[0.487s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/description/include.xacro
+[0.488s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/description/inertia_macros.xacro
+[0.522s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/description/mower.urdf.xacro
+[0.523s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/description/robot.urdf.xacro
+[0.524s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/listener.launch.py
+[0.525s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/rsp.launch.py
+[0.525s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/talker.launch.py
+[0.527s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/worlds/empty.world
+[0.528s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/package_run_dependencies/mowerai
+[0.529s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/parent_prefix_path/mowerai
+[0.531s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.sh
+[0.532s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.dsv
+[0.533s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/path.sh
+[0.539s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/path.dsv
+[0.540s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.bash
+[0.540s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.sh
+[0.541s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.zsh
+[0.544s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/local_setup.dsv
+[0.545s] -- Symlinking: /home/mowerai/robot_ws/install/mowerai/share/mowerai/package.dsv
+[0.574s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/packages/mowerai
+[0.575s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/cmake/moweraiConfig.cmake
+[0.576s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/cmake/moweraiConfig-version.cmake
+[0.577s] -- Up-to-date symlink: /home/mowerai/robot_ws/install/mowerai/share/mowerai/package.xml
+[0.584s] Invoked command in '/home/mowerai/robot_ws/build/mowerai' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mowerai/robot_ws/build/mowerai

@@ -1,5 +1,13 @@
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/config/empty.yaml
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/description/include.xacro
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/description/inertial_macros.xacro
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/description/mower.urdf.xacro
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/description/robot.urdf.xacro
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/launcher.launch.py
 /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/listener.launch.py
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/rsp.launch.py
 /home/mowerai/robot_ws/install/mowerai/share/mowerai/launch/talker.launch.py
+/home/mowerai/robot_ws/install/mowerai/share/mowerai/worlds/empty.world
 /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/package_run_dependencies/mowerai
 /home/mowerai/robot_ws/install/mowerai/share/ament_index/resource_index/parent_prefix_path/mowerai
 /home/mowerai/robot_ws/install/mowerai/share/mowerai/environment/ament_prefix_path.sh

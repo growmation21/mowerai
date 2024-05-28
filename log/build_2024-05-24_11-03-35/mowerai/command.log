@@ -1,0 +1,4 @@
+Invoking command in '/home/mowerai/robot_ws/build/mowerai': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mowerai/robot_ws/build/mowerai -- -j4 -l4
+Invoked command in '/home/mowerai/robot_ws/build/mowerai' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mowerai/robot_ws/build/mowerai -- -j4 -l4
+Invoking command in '/home/mowerai/robot_ws/build/mowerai': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mowerai/robot_ws/build/mowerai
+Invoked command in '/home/mowerai/robot_ws/build/mowerai' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mowerai/robot_ws/build/mowerai
